@@ -1,6 +1,7 @@
 # ZumiLessonMay24
+- [ ]
+- [x]
 
- 
 1.) briefly go over last weeks list of lists   ( 5 - 10 min) - [x] <br>
 2.) implement multiple routes feature          ( 10 min implement + 5 play with   ) - [x]  <br>
 3.) Write a function that drives Zumi back to the start point. (5 minutes implement + 5 play with ) - [] <br>

@@ -17,7 +17,7 @@ endVertex   = input("Ending   Vertex: ")
 
 routesArr.append([startVertex, endVertex])
 
-for i in range(0, numRoutes-a):
+for i in range(0, numRoutes-1):
     startVertex = endVertex
     endVertex = input("Next Vertex: ")
     # do something here 

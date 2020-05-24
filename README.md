@@ -1,6 +1,7 @@
 # ZumiLessonMay24
-- [ ]
-- [x]
+
+- [ ] Mercury
+- [x] Venus
 
 1.) briefly go over last weeks list of lists   ( 5 - 10 min) - [x] <br>
 2.) implement multiple routes feature          ( 10 min implement + 5 play with   ) - [x]  <br>

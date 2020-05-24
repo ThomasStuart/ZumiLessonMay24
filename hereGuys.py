@@ -1,21 +1,32 @@
+def isQuitCommand( string ):
+    for character in string:
+        if character == 'Q' or character == 'q':
+            return True
+    return False
+
+routesArr = []
+
+
 numRoutes = input("How many routes do I want to run :")
 numRoutes = int(numRoutes)
 
+
 startVertex = input("Starting Vertex: ")
 endVertex   = input("Ending   Vertex: ")
-routesArr = []
 
-#TODO:: add 1 line code here 
 
-for i in range(0, numRoutes):
-    newRoute = [ ] #TODO:: add something in the brackets 
-    
-    first_item  = input("Starting Vertex: ") # TODO:: EDIT delete or keep ?
-    second_item = input("Ending   Vertex: ") # TODO::  EDIT delete or keep ?
-    
-    
-    routesArr.append(newRoute)
+routesArr.append([startVertex, endVertex])
 
+for i in range(0, numRoutes-a):
+    startVertex = endVertex
+    endVertex = input("Next Vertex: ")
+    # do something here 
+    
+    routesArr.append([startVertex, endVertex])
+
+
+print()    
+print()
 
 num = 0
 while len(routesArr) > 0:
@@ -31,38 +42,4 @@ while len(routesArr) > 0:
     num+=1
     print()
 
-#Example 1      user requested to make 3 routes 
-#----------
-# the program right now 
-# Route 1:  (input=a, input=b) 
-# Route 2:  (input=b, input=c)
-# Route 3:  (input=c, input=d)
 
-#Goal:
-# Route 1:  (input=a, input=b) 
-# Route 2:  (b, input=c)
-# Route 3:  (c, input=d)
-
-
-#done with input
-#----------
-# Route 1: (a,b)
-# Route 1: (b,c)
-# Route 1: (c,d)
-
-
-#Example 2     
-#----------
-# 2 routes
-# (input= x,input= y)
-# (input=y,input=z)   # had to input both
-
-#goal
-# (input= x,input= y)
-# (y, input=z)        # only 1 input 
-
-
-#done with input
-#----------
-# (x,y)
-# (y,z)

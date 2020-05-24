@@ -7,7 +7,7 @@
 4.) add more detailed info to the route details being displayed in output to the console (15-30 minutes) <br>
 
 <pre> A.) display the current vertex 
-<pre> B.) display the current road /pre> <br>
+      B.) display the current road /pre> <br>
 <pre> C.) display the length of road + zumi time to finish </pre><br>
 <pre> D.) display the angle we are currently heading in  </pre> <br>
 
